@@ -1,9 +1,9 @@
 import { FieldLayout } from "./FieldLayout" 
 
-export function Field() {
+export function Field(props) {
   
   return (
-    <FieldLayout />
+    <FieldLayout field={props.field}/>
 
   )
 }

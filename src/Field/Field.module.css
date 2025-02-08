@@ -1,0 +1,11 @@
+.fieldGrid {
+  height: 400px;
+  background: gray;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border: 1px solid red;
+}
+
+.fieldCell {
+  border: 1px solid green;
+}

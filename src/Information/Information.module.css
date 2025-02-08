@@ -1,0 +1,14 @@
+.informationLayout {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.info {
+  border: 1px solid pink;
+}
+
+.startButton {
+  color: blue;
+}

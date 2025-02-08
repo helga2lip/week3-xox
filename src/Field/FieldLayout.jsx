@@ -5,7 +5,7 @@ export const FieldLayout = (props) => {
         <div className={styles.fieldGrid}>
             {props.field.map((cell, index) => {
                 return <div key={index} className={styles.fieldCell}>
-                <button className={styles.fieldButton}>{cell}</button>
+                {cell}
             </div>
             })}
             
